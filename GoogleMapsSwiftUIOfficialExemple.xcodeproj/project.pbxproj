@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FCDF1692AE936700006BAC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCDF1682AE936700006BAC0 /* Assets.xcassets */; };
+		1FCDF16C2AE936700006BAC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCDF16B2AE936700006BAC0 /* Preview Assets.xcassets */; };
+		1FCDF1732AE936860006BAC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDF1722AE936860006BAC0 /* AppDelegate.swift */; };
+		1FCDF1772AE936DD0006BAC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDF1762AE936DD0006BAC0 /* SceneDelegate.swift */; };
+		1FCDF17B2AE937160006BAC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDF17A2AE937160006BAC0 /* ContentView.swift */; };
+		1FCDF17D2AE937390006BAC0 /* CitiesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDF17C2AE937390006BAC0 /* CitiesList.swift */; };
+		1FCDF1802AE938000006BAC0 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDF17F2AE938000006BAC0 /* City.swift */; };
+		1FCDF1822AE938250006BAC0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDF1812AE938250006BAC0 /* MapView.swift */; };
+		1FCDF1842AE938430006BAC0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDF1832AE938430006BAC0 /* MapViewController.swift */; };
+		1FCDF1862AE938650006BAC0 /* MapViewControllerBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDF1852AE938650006BAC0 /* MapViewControllerBridge.swift */; };
+		1FCDF1882AE93A0A0006BAC0 /* GoogleMapsSwiftUIOfficialExempleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDF1872AE93A0A0006BAC0 /* GoogleMapsSwiftUIOfficialExempleApp.swift */; };
+		D1034CF94841069A26792511 /* Pods_GoogleMapsSwiftUIOfficialExemple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45063DD17FC024E51C95C082 /* Pods_GoogleMapsSwiftUIOfficialExemple.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		035723D7CB3006E65A90B46A /* Pods-GoogleMapsSwiftUIOfficialExemple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsSwiftUIOfficialExemple.debug.xcconfig"; path = "Target Support Files/Pods-GoogleMapsSwiftUIOfficialExemple/Pods-GoogleMapsSwiftUIOfficialExemple.debug.xcconfig"; sourceTree = "<group>"; };
+		1FCDF1612AE9366F0006BAC0 /* GoogleMapsSwiftUIOfficialExemple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMapsSwiftUIOfficialExemple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FCDF1682AE936700006BAC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FCDF16B2AE936700006BAC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FCDF1722AE936860006BAC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FCDF1762AE936DD0006BAC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1FCDF17A2AE937160006BAC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1FCDF17C2AE937390006BAC0 /* CitiesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesList.swift; sourceTree = "<group>"; };
+		1FCDF17F2AE938000006BAC0 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		1FCDF1812AE938250006BAC0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		1FCDF1832AE938430006BAC0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1FCDF1852AE938650006BAC0 /* MapViewControllerBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewControllerBridge.swift; sourceTree = "<group>"; };
+		1FCDF1872AE93A0A0006BAC0 /* GoogleMapsSwiftUIOfficialExempleApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapsSwiftUIOfficialExempleApp.swift; sourceTree = "<group>"; };
+		45063DD17FC024E51C95C082 /* Pods_GoogleMapsSwiftUIOfficialExemple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMapsSwiftUIOfficialExemple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C7603EFABFCFC9F7DFADBBB /* Pods-GoogleMapsSwiftUIOfficialExemple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsSwiftUIOfficialExemple.release.xcconfig"; path = "Target Support Files/Pods-GoogleMapsSwiftUIOfficialExemple/Pods-GoogleMapsSwiftUIOfficialExemple.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FCDF15E2AE9366F0006BAC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1034CF94841069A26792511 /* Pods_GoogleMapsSwiftUIOfficialExemple.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FCDF1582AE9366F0006BAC0 = {
+			isa = PBXGroup;
+			children = (
+				1FCDF1632AE9366F0006BAC0 /* GoogleMapsSwiftUIOfficialExemple */,
+				1FCDF1622AE9366F0006BAC0 /* Products */,
+				FAB7F5C2C71AF5E747DB3875 /* Pods */,
+				60967FAEFBBFEE4647E56DF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1FCDF1622AE9366F0006BAC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FCDF1612AE9366F0006BAC0 /* GoogleMapsSwiftUIOfficialExemple.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FCDF1632AE9366F0006BAC0 /* GoogleMapsSwiftUIOfficialExemple */ = {
+			isa = PBXGroup;
+			children = (
+				1FCDF1792AE937050006BAC0 /* AppEntryPoint */,
+				1FCDF17E2AE937F70006BAC0 /* Models */,
+				1FCDF1782AE936FE0006BAC0 /* Views */,
+				1FCDF1682AE936700006BAC0 /* Assets.xcassets */,
+				1FCDF16A2AE936700006BAC0 /* Preview Content */,
+			);
+			path = GoogleMapsSwiftUIOfficialExemple;
+			sourceTree = "<group>";
+		};
+		1FCDF16A2AE936700006BAC0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1FCDF16B2AE936700006BAC0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FCDF1782AE936FE0006BAC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1FCDF17A2AE937160006BAC0 /* ContentView.swift */,
+				1FCDF17C2AE937390006BAC0 /* CitiesList.swift */,
+				1FCDF1812AE938250006BAC0 /* MapView.swift */,
+				1FCDF1832AE938430006BAC0 /* MapViewController.swift */,
+				1FCDF1852AE938650006BAC0 /* MapViewControllerBridge.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1FCDF1792AE937050006BAC0 /* AppEntryPoint */ = {
+			isa = PBXGroup;
+			children = (
+				1FCDF1872AE93A0A0006BAC0 /* GoogleMapsSwiftUIOfficialExempleApp.swift */,
+				1FCDF1722AE936860006BAC0 /* AppDelegate.swift */,
+				1FCDF1762AE936DD0006BAC0 /* SceneDelegate.swift */,
+			);
+			path = AppEntryPoint;
+			sourceTree = "<group>";
+		};
+		1FCDF17E2AE937F70006BAC0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1FCDF17F2AE938000006BAC0 /* City.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		60967FAEFBBFEE4647E56DF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45063DD17FC024E51C95C082 /* Pods_GoogleMapsSwiftUIOfficialExemple.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAB7F5C2C71AF5E747DB3875 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				035723D7CB3006E65A90B46A /* Pods-GoogleMapsSwiftUIOfficialExemple.debug.xcconfig */,
+				7C7603EFABFCFC9F7DFADBBB /* Pods-GoogleMapsSwiftUIOfficialExemple.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FCDF1602AE9366F0006BAC0 /* GoogleMapsSwiftUIOfficialExemple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FCDF16F2AE936700006BAC0 /* Build configuration list for PBXNativeTarget "GoogleMapsSwiftUIOfficialExemple" */;
+			buildPhases = (
+				5BA73C1BA134635A4932F7AF /* [CP] Check Pods Manifest.lock */,
+				1FCDF15D2AE9366F0006BAC0 /* Sources */,
+				1FCDF15E2AE9366F0006BAC0 /* Frameworks */,
+				1FCDF15F2AE9366F0006BAC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleMapsSwiftUIOfficialExemple;
+			productName = GoogleMapsSwiftUIOfficialExemple;
+			productReference = 1FCDF1612AE9366F0006BAC0 /* GoogleMapsSwiftUIOfficialExemple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FCDF1592AE9366F0006BAC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1FCDF1602AE9366F0006BAC0 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 1FCDF15C2AE9366F0006BAC0 /* Build configuration list for PBXProject "GoogleMapsSwiftUIOfficialExemple" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FCDF1582AE9366F0006BAC0;
+			productRefGroup = 1FCDF1622AE9366F0006BAC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FCDF1602AE9366F0006BAC0 /* GoogleMapsSwiftUIOfficialExemple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FCDF15F2AE9366F0006BAC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCDF16C2AE936700006BAC0 /* Preview Assets.xcassets in Resources */,
+				1FCDF1692AE936700006BAC0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BA73C1BA134635A4932F7AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleMapsSwiftUIOfficialExemple-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FCDF15D2AE9366F0006BAC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCDF17D2AE937390006BAC0 /* CitiesList.swift in Sources */,
+				1FCDF1882AE93A0A0006BAC0 /* GoogleMapsSwiftUIOfficialExempleApp.swift in Sources */,
+				1FCDF1822AE938250006BAC0 /* MapView.swift in Sources */,
+				1FCDF1862AE938650006BAC0 /* MapViewControllerBridge.swift in Sources */,
+				1FCDF1802AE938000006BAC0 /* City.swift in Sources */,
+				1FCDF1732AE936860006BAC0 /* AppDelegate.swift in Sources */,
+				1FCDF1772AE936DD0006BAC0 /* SceneDelegate.swift in Sources */,
+				1FCDF17B2AE937160006BAC0 /* ContentView.swift in Sources */,
+				1FCDF1842AE938430006BAC0 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1FCDF16D2AE936700006BAC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FCDF16E2AE936700006BAC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FCDF1702AE936700006BAC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 035723D7CB3006E65A90B46A /* Pods-GoogleMapsSwiftUIOfficialExemple.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoogleMapsSwiftUIOfficialExemple/Preview Content\"";
+				DEVELOPMENT_TEAM = UTG2V2H3FK;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.deltaapps.GoogleMapsSwiftUIOfficialExemple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FCDF1712AE936700006BAC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C7603EFABFCFC9F7DFADBBB /* Pods-GoogleMapsSwiftUIOfficialExemple.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoogleMapsSwiftUIOfficialExemple/Preview Content\"";
+				DEVELOPMENT_TEAM = UTG2V2H3FK;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.deltaapps.GoogleMapsSwiftUIOfficialExemple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FCDF15C2AE9366F0006BAC0 /* Build configuration list for PBXProject "GoogleMapsSwiftUIOfficialExemple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FCDF16D2AE936700006BAC0 /* Debug */,
+				1FCDF16E2AE936700006BAC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FCDF16F2AE936700006BAC0 /* Build configuration list for PBXNativeTarget "GoogleMapsSwiftUIOfficialExemple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FCDF1702AE936700006BAC0 /* Debug */,
+				1FCDF1712AE936700006BAC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FCDF1592AE9366F0006BAC0 /* Project object */;
+}

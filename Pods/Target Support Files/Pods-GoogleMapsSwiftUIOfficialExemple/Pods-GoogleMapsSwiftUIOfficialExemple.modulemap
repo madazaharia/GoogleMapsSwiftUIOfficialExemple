@@ -1,0 +1,6 @@
+framework module Pods_GoogleMapsSwiftUIOfficialExemple {
+  umbrella header "Pods-GoogleMapsSwiftUIOfficialExemple-umbrella.h"
+
+  export *
+  module * { export * }
+}
